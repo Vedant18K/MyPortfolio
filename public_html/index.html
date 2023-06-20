@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <style>
+        li{
+           display: inline;
+           padding: 20px;
+           
+        }
+        ul{
+            text-align: right;
+        }
+       body{
+        margin-left: 150px;
+        margin-right: 150px;
+       }
+
+    .mainheader{
+        display:flex;
+        justify-content: space-between;
+        align-items: center
+    }
+    .subheader{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: gray;
+    }
+    a:hover{
+        font-weight: bold;
+        color: ff7a57;
+    }
+    .btn{
+        padding: 10px;
+        border: 2px solid;
+        border-radius: 15px;
+        background-color: #ff7a57;
+        border-color: #ff7a57;
+        color: white;
+    }   
+    .name{
+        margin-top: 150px;
+    }
+    .uppercase1{
+        font-size: 14px;
+        padding: 20px;
+        border: 2px solid;
+        border-radius: 25px;
+        background-color: #ff7a57;
+        border-color: #ff7a57;
+        color: white;
+        text-transform: uppercase;
+    }
+    .uppercase2{
+       font-size: 14px;
+       padding: 20px;
+       border: 2px solid;
+       border-radius: 25px;
+       background-color: gray;
+       border-color: gray;
+       color: white;
+       text-transform: uppercase;
+   }
+   .uppercase1:hover{
+    background-color: orangered;
+   }
+   .uppercase2:hover{
+    background-color: black;
+   }
+   .partition{
+    width: 33.33%;
+   }
+   .shift{
+    margin-left: 20px;
+   }
+   .resume{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #ff7a57;
+    border-radius: 25px;
+    border: #ff7a57;
+    color: #dfe2e5;
+   }
+   .resume.hover{
+    background-color: orangered;
+   }
+   .boxes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 20px white solid ;
+   
+   }
+   .particular{
+    background-color:#deebf8;
+    padding: 100px;
+    border-radius: black;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+    </style>
+</head>
+<body>
+    <div class="mainheader" >
+        <div>
+            <a href="">
+                <img src="assets\imgs\logo.svg">
+            </a>
+        </div>
+        <div class="subheader" >
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">testmonial</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <div>
+                    <button type="submit" class="btn">Componants</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <hr>
+    <div style="display: flex;justify-content: space-between;">
+        <div>
+            <div class="name">
+                <div style="font-size: 25px; font-weight: 500; color: #495057;">hello,I'm</div>
+                <div style="font-size: 74px; font-weight: bold; color: #495057;"> Vedant Kulkarni</div>
+                <div style="font-size: 22px; font-weight: 500; color: #495057;">Software Tester</div>
+            </div>
+            <div style="display: flex; padding-top: 15px;"  >
+                <div ><button class="uppercase1" type="button">Hire me</button></div>
+                <div ><button class="uppercase2" type="button" style="margin-left: 20px;">Download CV</button></div>
+            </div>
+        </div>
+        <div>
+            <img src="assets\imgs\man.svg" alt="man" style="width: 500px;" >
+        </div>
+    </div>
+    <div style="position: relative; ">
+    <hr style="margin-top: 50px;">
+    <div style="display:flex ; text-align: center; width: 500px; border: 2px #dfe2e5 solid; background-color: #dfe2e5; margin-right: auto; margin-left: auto; border-radius: 35px;position: relative;top: -50px;" >
+            <div class="partition"><p>144</p>
+                <p>text</p></div>
+                
+            <div class="partition"><p>144</p>
+                    <p>text</p></div>
+            <div class="partition"><p>144</p>
+                <p>text</p></div>
+            
+        </div>
+        <div></div>
+    </div>
+    </div>
+
+
+    <div >
+        <div style="display: flex;justify-content: space-between;">
+        <div><img src="assets\imgs\img.jpg" alt="Vedant Kulkarni" width="255px" height="255px"></div>
+        <div class="shift">
+            <div><h1 style="font-size: 28px;">Vedant Kulkarni</h1></div>
+            <div style="font-size: 15px;">Software Tester</div>
+            <div style="font-size: 16.47px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque labore impedit, corrupti suscipit reiciendis quisquam sunt quod numquam corporis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque labore impedit, corrupti suscipit reiciendis quisquam sunt quod numquam corporis.</p>
+            </div>
+            <div><button type="button" class="resume" >Download CV</button></div>
+        </div>
+        </div>
+    </div>
+
+    <div align="center" style="margin-top: 90px;">
+        <div style="font-size: 1rem; margin-top: 5px;">Service</div>
+        <div style="color: #495057; font-size: 30px; margin-top: 5px;">What I Do</div>
+        <div style="margin-top: 5px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <p>Exercitationem illum officia neque vel iure deleniti quia fugiat pariatur, distinctio animi?</p></div>
+    </div>
+
+    <div >
+        <div  class="boxes">
+        <div  class="particular" >Manual Testing</div>
+        <div class="particular" >Automation Testing </div>
+        <div class="particular" >Web Design</div>
+    </div>
+    </div>
+</body>
+</html>
