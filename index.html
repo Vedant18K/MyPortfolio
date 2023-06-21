@@ -96,16 +96,24 @@
     display: flex;
     justify-content: space-between;
     border: 20px white solid ;
-   
+    
    }
    .particular{
-    background-color:#deebf8;
-    padding: 100px;
-    border-radius: black;
-    color: black;
     font-size: 20px;
+    padding: 100px;
+    border: 1px solid;
+    background-color: white;
+    border-color:  white;
+    color: black;
     text-transform: uppercase;
-  }
+    box-shadow: 2px 2px  gray;   
+   }
+   .particular:hover{
+    background-color: #ff7a57;
+    color: white;
+    border-color: #ff7a57;
+   }
+   
     </style>
 </head>
 <body>
@@ -186,16 +194,17 @@
     </div>
 
     <div align="center" style="margin-top: 90px;">
-        <div style="font-size: 1rem; margin-top: 5px;">Service</div>
+        <div style="font-size: 15px; margin-top: 5px;">Service</div>
         <div style="color: #495057; font-size: 30px; margin-top: 5px;">What I Do</div>
-        <div style="margin-top: 5px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <p>Exercitationem illum officia neque vel iure deleniti quia fugiat pariatur, distinctio animi?</p></div>
+        <div style="margin-top: 5px; font-size: 16.7636px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <p>Exercitationem illum officia neque vel iure deleniti quia fugiat pariatur, distinctio animi?</p></div>
     </div>
 
     <div >
-        <div  class="boxes">
-        <div  class="particular" >Manual Testing</div>
-        <div class="particular" >Automation Testing </div>
-        <div class="particular" >Web Design</div>
+        <div  class="boxes" >
+        <div   > <button class="particular" type="button">Manual Testing</button> </div>
+        <div   > <button class="particular" type="button" >Automation Testing</button> </div>
+        <div   > <button class="particular" type="button">Web Design</button> </div>
+        
     </div>
     </div>
 </body>
